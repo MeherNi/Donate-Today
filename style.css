@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/Rectangle\ 237.jpg'), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-details {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    width: 50%;
+    margin: auto;
+    padding: 7px;
+}
+
+.banner-descript {
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.btn {
+    padding: 15px 35px;
+    background: #FF5959;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: 0;
+}
+
+/* donate section styles */
+.box {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.description {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    color: #707070;
+    padding: 35px;
+}
+
+.donate-tk {
+    width: 50%;
+    margin: auto;
+    color: #B3B3B3;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+
+
+}
+
+.amount {
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+.tks {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 35px;
+}
+
+.tk {
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 44px 25px;
+}
+
+.special {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+
+}
+
+.donate-section {
+    text-align: center;
+}
+
+/* plan section styles */
+.plans {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.plan-bg {
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.plan-1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plan-2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.plan-3 {
+    background: #FFF4D6;
+}
+
+.plan-img {
+    padding-top: 60PX;
+    padding-bottom: 30PX;
+}
+
+.plan-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.plan-description {
+    color: #707070;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+/* depend section styles */
+.depend-section {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.depend-left {
+    width: 50%;
+    margin: auto;
+    margin-right: 80px;
+}
+
+.depend-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.depend {
+    width: 75%;
+    color: #707070;
+    font-size: 18px;
+}
+
+.descript {
+    margin-top: 20px;
+}
+
+.depend-section .btn {
+    margin-top: 30px;
+}
+
+/* survive section styles */
+.survive-section {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.survive-right {
+    width: 50%;
+    margin: auto;
+    margin-left: 80px;
+}
+
+.survive-section .btn {
+    margin-top: 30px;
+}
+
+/* email secton styles */
+.email-area {
+    width: 50%;
+    height: 30vh;
+    margin: auto;
+    background: #FFF4D6;
+    margin-bottom: 50px;
+}
+
+.email {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.email input[type="email"] {
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    padding: 14px 18px;
+    border: 0;
+    color: #AA9F9F;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.subscribe {
+    padding: 12px 45px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    margin-left: -5px;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background: #0B0D17;
+}
+
+.footer-title {
+    color: #FF5959;
+    font-weight: 400;
+    font-size: 36px;
+}
+.copy{
+    color: #D9DBE1;
+    margin-top: 24px;
+}
+.footer-text{
+    text-align: center;
+    padding-top: 60px;
+}
